@@ -21,6 +21,8 @@ function for_button_click()
         <h2>Country : ${regions.location.country}</h2>
         <h2>Tempreature In Celcius : ${regions.current.temp_c} </h2>
         <h2>Tempreature In Fehrenheit : ${regions.current.temp_f}</h2>
+        <h2>Wind Speed (KPH) : ${regions.current.wind_kph}</h2>
+        <h2>Humidity : ${regions.current.humidity}</h2>
 
         <div class="flex">
         <h2 class="flex">${regions.current.condition.text}</h2>
